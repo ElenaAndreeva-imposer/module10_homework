@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+}
+.body {
+    display: flex;
+    background-color: #e6ffff;
+    align-items: center;
+    justify-content: center;
+    height: 55em;
+}
+.button {
+padding: 15px;
+border: solid 1px #008080;
+border-radius: 5px;
+background-color: #00b3b3;
+color: white;
+text-transform: uppercase;
+text-shadow: 1px 1px 2px #003333;
+}
+button:hover {
+    background-color: #008080;
+    cursor: pointer;
+}
